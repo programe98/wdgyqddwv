@@ -1,0 +1,429 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&family=Poppins:wght@300;400&display=swap');
+
+
+.image-top-logo{
+  transition: .1s;
+}
+.image-top-logo:hover{
+border: 2px solid  rgb(103, 159, 183)  ;
+}
+
+*{font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+text-decoration: none;
+
+}
+  
+  
+  .danca{
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+padding: 4px;
+      margin-left: 12px;
+      transition: .1s;
+      background-color: yellow;
+  }
+
+  .danca:hover{
+      background-color: rgb(0, 158, 227)  ;
+      cursor: pointer;
+      border: 2px solid yellow;
+
+  }
+
+  .barra-de-navegacao{
+     
+      background-color: rgb(0, 158, 227) ;
+      display: flex;
+      justify-content: space-between;
+align-items: center;
+
+      width: 100%;
+      height: 50px;
+  }
+
+
+
+
+/*patrocinio apos a div 5 */
+/*
+.patrocinio-level6{
+  width: 100%;
+  height: 200px;
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.patrocionio6{
+  width: 97%;
+  height: 200px;
+  background-color: rgb(231, 229, 229);
+}
+
+.cont-patrocinio-principal{
+  width: 100%;
+margin-top: 10px;
+}
+.h1-patrocinio{
+  font-size: 17px;
+  margin-left: 5px;
+  margin-right: 5px;
+  
+}
+
+.botao-ggggg{
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.para555{
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.uuuuuuuu{
+height: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+text-decoration: none;
+border-radius: 12px;
+text-align: center;
+width: 90%;
+  background-color: rgb(0, 158, 227) ;
+}
+
+
+
+.parofrafo-patrocinio-6{
+  margin-top: 10px;
+}
+*/
+/*.............................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ 
+  .id-da-seta{
+width: 20%;
+display: flex;
+align-items: center;
+height: 40px;
+
+
+  }
+  .nome-goufut{
+     align-items: center;
+      width: 60%;
+      height: 50px;
+  display: flex;
+justify-content: center;
+transition: .1s;
+  }
+  .assinatura-brasil{
+      width: 20%;
+
+      height: 50px;
+      display: flex;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+   
+  }
+
+
+
+
+
+.goufut{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: yellow;
+  border-radius: 30px;
+color: black;
+padding: 3px 35%;
+}
+.goufut:hover{
+  cursor: pointer;
+  background-color: rgb(249, 249, 3);
+}
+
+
+
+.image-tv{
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  margin-right: 12px;
+  transition: .1s;
+}
+.image-tv:hover{
+  background-color: rgb(0, 158, 227) ;
+  border: 2px solid yellow;
+}
+
+.image-capa1{
+  width: 90%;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+.positin-barra{
+  width: 100%;
+  height: 60px;
+  background-color: yellow;
+  position: fixed;
+  bottom: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.poster-img{
+  width: 100%;
+}
+
+
+
+
+
+
+/*div do grupo de poster*/
+
+
+.post123{
+
+  width: 100%;
+
+}
+
+
+
+
+
+/*post etxt*/
+
+
+
+.texto-do-post1-dev{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 9px solid rgb(242, 242, 242);
+
+}
+
+
+
+
+.icone-mimo{
+  width: 20px; 
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 2px;
+ margin-right: 4px;
+ transition: .3;
+}
+
+
+/*ojsxskjnsj*/
+.icone-mimo:hover{
+border: 1px solid   rgb(0, 158, 227) ;
+}
+
+.mimo{
+  width: 10%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capa-post1{
+  margin-left: 12px;
+  width: 25px;
+  border-radius: 50%;
+  padding: 3px;
+  transition: .1s;
+
+}
+
+
+.capa-post1:hover{
+background-color: none;
+border: 2px solid rgb(0, 158, 227);
+
+}
+
+.ppppppp{
+  margin-left: 12px;
+
+}
+.ppaaaa{
+  text-decoration: none;
+  color: black;
+}
+.exclusivo-image{
+
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 5px;
+  transition: .3s;
+  margin-right: 12px;
+  padding: 5px;
+  width: 35px;
+}
+
+.exclusivo-image:hover{
+  background-color: rgb(0, 158, 227);
+  border: 3px solid yellow;
+}
+
+.exclusivo-div{
+width: 100%;
+height: 50px;
+background-color: transparent;
+display: flex;
+justify-content: right;
+  position: fixed;
+
+bottom: 20%;
+}
+
+
+
+.image-olho{
+  width: 30px;
+  height: 30px;
+  background-color: yellow;
+  border-radius: 50%;
+  transition: .1s;
+}
+
+.image-olho:hover{
+
+  background-color: rgb(0, 158, 227);
+}
+
+
+.hrdoolho{
+
+  width: 80% ;
+ border: 1px solid rgb(0, 158, 227);
+}
+
+
+
+.olho{
+  align-items: center;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+/*data tag da data*/
+.data-post{
+  text-decoration: none;
+  position: absolute;
+  color: white;
+  margin-left: 5px;
+  margin-top: 3px;
+font-weight: 100;
+font-size: 9px;
+}
+
+.goup-div{
+  width: 100%;
+  display: flex;
+margin-top: 12px;
+ margin-bottom: 33px;
+   align-items: center;
+}
+
+.coluna-horizontal{
+  border-radius: 12px;
+ 
+
+  width: 100%;
+  display: flex;
+justify-content: center;
+}
+
+.div1-coluna{
+  width: 40% ;
+margin-right: 5%;
+
+
+}
+
+.h1-da-div-coluna{
+  font-size: 15px;
+}
+.div2-coluna{
+  width: 40% ;
+margin-left: 5%;
+
+}
+
+
+.video-destaque{
+  width: 100%;
+
+}
+
+.tag-a-coluna{
+  text-decoration: none;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+

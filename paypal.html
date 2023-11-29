@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>assinatura</title>
+    <link rel="stylesheet" href="paypal.css">
+<link rel="shortcut icon" href="logo1.png" type="image/x-icon">
+ <style>
+
+ </style>
+</head>
+<body>
+<!--nave logo-->
+<nav class="barra-de-navegacao">
+
+  <div class="nome-goufut">
+  
+      <p class="goufut">assinatura</p>
+  </div>
+  
+  
+  </nav>
+  <!--nav-->
+  
+<div class="div-agrupamento">
+
+
+    <div id="paypal-button-container-P-6UW529799W058411WMVDWUAQ"></div>
+    <script src="https://www.paypal.com/sdk/js?client-id=AeOnKzYy-mxBwKQX30hZ68cAir0oteV2cqEonTohNMqCUnRq3kSCaejALotBGKagPNWLUbt9EC4EZffD&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
+    <script>
+      paypal.Buttons({
+          style: {
+              shape: 'rect',
+              color: 'gold',
+              layout: 'vertical',
+              label: 'subscribe'
+          },
+          createSubscription: function(data, actions) {
+            return actions.subscription.create({
+              /* Creates the subscription */
+              plan_id: 'P-6UW529799W058411WMVDWUAQ'
+            });
+          },
+          onApprove: function(data, actions) {
+            alert(data.subscriptionID); // You can add optional success message for the subscriber here
+          }
+      }).render('#paypal-button-container-P-6UW529799W058411WMVDWUAQ'); // Renders the PayPal button
+    </script>
+
+</div>
+
+
+<footer></footer>
+
+
+
+    
+</body>
+</html>

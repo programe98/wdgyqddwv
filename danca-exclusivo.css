@@ -1,0 +1,352 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700&family=Poppins:wght@300;400&display=swap');
+
+*{font-family: 'Inter', sans-serif;
+font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;}
+   
+    video{
+        cursor: pointer;
+    }
+    
+
+    /*barra de navegacao */
+.top{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 158, 227);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.texto-do-post1-dev{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-bottom: 9px solid rgb(242, 242, 242);
+
+}
+
+
+.capa-post1{
+    margin-left: 12px;
+    width: 25px;
+    border-radius: 50%;
+    padding: 3px;
+ cursor: pointer;
+ 
+}
+
+.ppppppp{
+    margin-left: 12px;
+  
+}
+.ppaaaa{
+    text-decoration: none;
+    color: black;
+}
+
+.capa-post1:hover{
+    cursor: pointer;
+    background-color: none;
+    border: 2px solid rgb(0, 158, 227);
+    
+    }
+    
+.tv-assina{
+    background-color: yellow;
+    padding: 4px;
+    width: 25px;
+    margin-right: 12px;
+    border-radius: 50%;
+    transition: .2s;
+}
+.tv-assina:hover{
+    border: 2px solid yellow ;
+    background-color: rgb(0, 158, 227);
+}
+
+.seta-post1{
+    width: 30px;
+    border-radius: 50%;
+padding: 10px;
+    margin-left: 12px;
+    transition: .2s;
+}
+
+.seta-post1:hover{
+    border: 2px solid yellow;
+}
+
+
+
+
+.positin-barra{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(0, 158, 227) ;
+    position: fixed;
+    bottom: 0px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.copa{
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+}
+
+
+
+
+
+.exclusivo-image{
+ 
+    background-color: yellow;
+    border-radius: 50%;
+    padding: 5px;
+    transition: .3s;
+    margin-right: 12px;
+    padding: 5px;
+    width: 35px;
+    transition: .2s;
+}
+
+.exclusivo-image:hover{
+    border: 2px solid rgb(0, 158, 227) ;
+}
+
+.exclusivo-div{
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  display: flex;
+  justify-content: right;
+    position: fixed;
+
+bottom: 20%;
+}
+
+
+
+
+.image-olho{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    transition: .1s;
+}
+
+.image-olho:hover{
+
+    background-color: yellow;
+}
+
+
+.hrdoolho{
+    width: 80% ;
+  border: 1px solid yellow;
+}
+
+
+
+.olho{
+    align-items: center;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+
+
+.video-conteudo-video{
+    width: 100%;
+ cursor: pointer;
+
+}
+
+
+/*div do video banner top*/
+.div-do-video{
+    width: 100%;
+background-color: red;
+}
+
+
+
+
+
+
+
+
+.testo0-top{
+    background-color: yellow;
+    padding: 2px 90px;
+    border-radius: 12px;
+    color: black;
+}
+
+.logo-blaze{
+    width: 100px;
+  margin-right: 12px;
+    background-color: white;
+   
+ padding: 5px 33px;
+ border-radius: 20px;
+}
+
+
+.patreocinio-do-image{
+    width: 100%;
+    height: 30px;
+    display: flex;
+   align-items: center;
+  justify-content: space-between;
+background-color: red;
+}
+
+
+.logo-patrocinio{
+    width: 30px;
+    margin-left: 12px;
+    border-radius: 50%;
+
+}
+
+
+
+.paragro-patro{
+    margin-left: 12px;
+    color: white;
+margin-right: 12px;
+}
+
+
+
+/*div do text chamada descricao*/
+.div-dotex-blaze{
+   background-color: red;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*div dos botoes de chamada para acao*/
+.botoes-div{
+    width: 100%;
+    display: flex;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+   
+}
+
+
+
+
+
+/**texto do botao1 a esquerda*/
+.aaaaaaaaa{
+    text-decoration: none;
+    margin-right: 12px;
+    color:  white;
+    padding: 3px 33px;
+    border-radius: 12px;
+  border: 2px solid white;
+  transition: .3s;
+}
+
+
+
+
+
+/**texto do botao2 a direita*/
+.bbbbbbbbbbbb{
+    background-color: white;
+    margin-left: 12px;
+    text-decoration: none;
+    padding: 3px 33px;
+    border-radius: 12px;
+    color: black;
+    transition: .3s;
+}
+
+
+
+
+/**hover do botao do botao1 a esquerda*/
+.aaaaaaaaa:hover{
+    background-color: rgb(240, 237, 237);
+    color: black;
+}
+
+
+
+
+
+
+
+/**hover do botao do botao2 a direita*/
+.bbbbbbbbbbbb:hover{
+  background-color: rgb(240, 237, 237);
+  color: black;
+}
+
+
+
+
+
+
+.div-dotex-blaze{
+ width: 100%;
+ justify-content: center;
+}
+
+.video-post1-relo1{
+    width: 100%;
+    margin-top: 12px;
+}
+
+.video-rolo1{
+    width: 100%;
+  border-radius: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
